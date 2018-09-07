@@ -219,8 +219,8 @@ p {
   content: '';
   position: absolute;
   background: black;
-  /*animation: movingEyes 5s infinite;
-  -webkit-animation: movingEyes 0.1s infinite;*/
+  animation: movingEyes 5s infinite;
+  -webkit-animation: movingEyes 5s infinite;
   right: -0w;
   top: 0vw;
   width: 1.6vw;
