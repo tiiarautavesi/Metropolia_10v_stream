@@ -70,6 +70,15 @@ $('.click-for-timetable').on('click', function () {
   $('.timetable').slideDown();
 });
 
+/* menu for timetables */
+$('.menu-item').on('click', function () {
+  $('.menu-item').removeClass('active');
+  $(this).addClass('active');
+  var currItem = $(this).data('item');
+  console.log(currItem);
+  $('.timetable-section').hide();
+  $("#" + currItem + "").show();
+});
 
 /*esimerkki*/
 /*
