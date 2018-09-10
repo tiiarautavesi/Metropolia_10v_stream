@@ -15,7 +15,7 @@ h4 {
   font-size: 5vw;
   margin: 0;
   padding-bottom: 0;
-  height: 7vw
+  height: 7vw;
 }
 
 h4 {
@@ -27,6 +27,26 @@ h4 {
 p {
   font-family: 'Fira Sans', sans-serif;
   font-size: 1.5vw;
+}
+
+a {
+  font-family: 'Baloo Tammudu', cursive;
+  font-size: 3vw;
+  margin-right: 1vw;
+  padding-bottom: 0;
+  text-decoration: none;
+  color: black;
+  height: 4vw;
+  cursor: pointer;
+}
+
+a:hover {
+  color: orange;
+}
+
+.active {
+  text-decoration: underline;
+  color: orange;
 }
 
 /* video styles for desktop layout */
